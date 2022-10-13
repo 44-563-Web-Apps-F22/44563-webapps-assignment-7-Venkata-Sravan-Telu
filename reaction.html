@@ -14,27 +14,23 @@
 <body>
 
   <div class="container text-center">
-    <div class="container-fluid p-5 bg-secondary text-white text-center">
+    <div class="container-fluid p-5 bg-light">
       <h2>Venkata Sravan Telu Reaction Timer</h2>
     </div><br>
 
-    <div class="d-flex justify-content-center p-2 bg-warning text-white">
+    <div class="d-flex justify-content-center p-2 bg-dark text-white">
       <div class="col-md">
-        <div class="p-2 bg-info flex-fill" id="target">Your time</div>
+        <div class="p-2 bg-success flex-fill" id="target">Your time</div>
       </div>
       <div class="col-md">
-        <div class="p-2 bg-success flex-fill" id="countdown">Count</div>
+        <div class="p-2 bg-info flex-fill" id="countdown">Count</div>
       </div>
     </div><br>
     <div class="container text-center">
-      <button class="btn btn-warning" type="submit" onclick="startTime()">Start Timer</button>
-      <button class="btn btn-danger" type="submit" onclick="recordReact()">React Now</button>
+      <button class="btn btn-primary" type="submit" onclick="startTime()">Start Timer</button>
+      <button class="btn btn-warning" type="submit" onclick="recordReact()">React Now</button>
     </div>
   </div>
-  <button type="button" class="btn btn-primary" onclick="buttonPress2()">
-    Click me change the color.</button>
-
-  <p id="target">I will become red </p>
 
   <script>
     var myTime = Date.now()
