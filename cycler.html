@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html> <head>
-	<title> Cycler</title>
-	<style>
-    ..flex-container {
+<html> 
+    <head> 
+        <title>Welcome to Cycler Page</title>
+    <style>
+    .flex-container {
         display: flex;  
         flex-direction:row;
-        background-color: red;
+        background-color: rgb(192, 51, 138);
     }
     .flex-container > div {  
         background-color:whitesmoke; 
@@ -19,13 +20,19 @@
 		background-color: green;
 	  }
 	}
-</style></head>
-
-
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</head>
 
 <body>
-	<div class="container text-center">
-        <div class="container-fluid p-5 bg-warning text-black text-center">
+
+    <div class="container text-center">
+        <div class="container-fluid p-5 bg-light text-black text-center">
             <h1>Venkata Sravan Telu builds a cycler</h1>
         </div><br>
         <div class="flex-container" id="target">
@@ -78,20 +85,5 @@
             }
         }
     </script>
-	
-	
 </body>
-<script>
-	function makeNewDiv(){
-		/* make the div and its text */
-		let element = document.createElement("div")
-		element.innerHTML = "an item after 3"
-		element.style.color = "orange"
-
-		/* add it to the container */
-		let container = document.getElementById('target')
-		container.appendChild(element)
-		
-	}
-</script>
 </html>	
