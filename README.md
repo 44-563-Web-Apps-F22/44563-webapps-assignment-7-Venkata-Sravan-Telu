@@ -7,5 +7,5 @@ Treasure html - https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-
 ---
 Reaction html - https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-7-Venkata-Sravan-Telu/blob/main/reaction.html
 ---
-Timeout html - https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-7-Venkata-Sravan-Telu/blob/main/timeout.html
+Cycler html - https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-7-Venkata-Sravan-Telu/blob/main/cycler.html
 ---
